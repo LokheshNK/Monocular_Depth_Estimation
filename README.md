@@ -90,11 +90,3 @@ python app.py --input_image raw_rgb/2011_09_26/0000000000.png --checkpoint best_
 - Sq Rel
 - δ < 1.25, 1.25², 1.25³
 
-## License
-
-MIT License
-
-## Author
-
-- Project name: Monocular Depth Estimation
-- Created by: [Your Name]
