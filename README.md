@@ -90,18 +90,6 @@ python app.py --input_image raw_rgb/2011_09_26/0000000000.png --checkpoint best_
 - Sq Rel
 - δ < 1.25, 1.25², 1.25³
 
-## Notes
-
-- Keep input normalization and image resizing consistent between training and inference.
-- If checkpoint keys differ, adapt `load_state_dict` calls in model class loaders.
-
-## Future Work
-
-- Add `docker` or `conda` environment setup.
-- Add inference API (`FastAPI` / `uvicorn`).
-- Add additional datasets (NYU Depth V2, Make3D).
-- Add self-supervised pretraining and scale-aware loss.
-
 ## License
 
 MIT License
